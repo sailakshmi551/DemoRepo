@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="49.831305">
+<testcase classname="Login" name="Login to the 'Mercury Tours' application" time="32.893783">
+<system-out><![CDATA[Given User is on login page.................................................passed
+When I enter "Test@123" and "Test@123"......................................passed
+And click on login button...................................................passed
+Then 'Home' page should be displayed........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Register to the 'Mercury Tours' application" time="16.937522">
+<system-out><![CDATA[Given User is on Home page..................................................passed
+When click on the register link.............................................passed
+Then 'Register' page should be displayed....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
